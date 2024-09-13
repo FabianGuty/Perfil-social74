@@ -1,0 +1,103 @@
+:root {
+
+    /* ## Colors */
+
+    --Green: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+
+    /* ## Typography */
+
+    --fuente-principal: "Inter", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    height: 100vh;
+    font-size: 14px;
+    font-family: var(--fuente-principal);
+    background-color: var(--Grey-900);
+    color: var(--White);  
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.contenedor-general {
+    width: 100%;
+}
+
+.contenedor {
+    width: 45rem;
+    /* height: 70rem; */
+    background-color: var(--Grey-800);
+    margin:  20rem auto;
+    padding: 4rem;
+    border-radius: 1.5rem;
+}
+
+.contenedor {
+    margin-bottom: 2rem;
+}
+
+.image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.info span {
+    color: var(--Green);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.profesion {
+    margin: 3rem;
+    margin-bottom: 2rem;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes a {
+    width: 100%;
+    background-color: var(--Grey-700);
+    font-weight: 700;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+a:hover {
+    background-color: var(--Green);
+    color: var(--Grey-900);
+    cursor: pointer;
+}
+
+.attribution a {
+    color: var(--Green);
+    text-decoration: none;    
+}
+
+.attribution a:hover {
+    color: var(--Grey-900);
+    font-weight: 700;
+}
